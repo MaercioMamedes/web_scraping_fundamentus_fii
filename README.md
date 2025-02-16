@@ -9,9 +9,9 @@ Este projeto é uma aplicação escrita na linguagem Python, que realiza coleta 
 
 ## 📌 Índice
 
-- [Sobre](#sobre)
-- [Tecnologias](#tecnologias)
-- [Instalação](#instala%C3%A7%C3%A3o)
+- [Sobre](https://github.com/MaercioMamedes/web_scraping_fundamentus_fii?tab=readme-ov-file#-sobre)
+- [Tecnologias](https://github.com/MaercioMamedes/web_scraping_fundamentus_fii?tab=readme-ov-file#-tecnologias)
+- [Instalação](https://github.com/MaercioMamedes/web_scraping_fundamentus_fii?tab=readme-ov-file#-instala%C3%A7%C3%A3o)
 - [Uso](#uso)
 - [Contribuição](#contribui%C3%A7%C3%A3o)
 - [Licença](#licen%C3%A7a)
@@ -32,17 +32,30 @@ Principais Tecnologias Utilizadas
   
 ## 🚀 Instalação
 
+Para instalar e executar a aplicação, certifique-se que o interpretador Python esteja instalado na máquina, na versão 3.12 ou superior.
+
 1. Clone o repositório:
    ```sh
-   git clone https://github.com/usuario/repo.git
+   git clone https://github.com/MaercioMamedes/web_scraping_fundamentus_fii.git
    ```
 2. Acesse o diretório do projeto:
    ```sh
-   cd nome-do-projeto
+   cd web_scraping_fundamentus_fii
    ```
-3. Instale as dependências:
+3. [Crie um ambiente virtual Python](https://www.alura.com.br/artigos/ambientes-virtuais-em-python?srsltid=AfmBOortk62KHQFExQEWIq1LtfrRpBE7zhNz1vJWCxJJk_oRAfgM3hbV) para melhor gerenciar o projeto em sua máquina e evitar conflito de versões de dependências
    ```sh
-   comando de instalação
+   python3 -m venv nome_do_ambiente_virtual  
+   ```
+4. a) Ative o ambiente Virtual(Linux)
+    ```sh
+    source nome_do_ambiente_virtual/bin/activate
+    ```
+4. b)
+    ```sh
+       
+6. Instale as dependências:
+   ```sh
+   pip install -r requirements.txt
    ```
 
 ## 📌 Uso
