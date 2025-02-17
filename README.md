@@ -50,21 +50,28 @@ Para instalar e executar a aplicação, certifique-se que o interpretador Python
     ```sh
     source nome_do_ambiente_virtual/bin/activate
     ```
-4. b)
+4. b) Ative o ambiente Virtual(Windows)
     ```sh
-       
-6. Instale as dependências:
+    nome_do_ambiente_virtual\Scripts\Activate
+    ```
+5. Instale as dependências:
    ```sh
    pip install -r requirements.txt
    ```
 
 ## 📌 Uso
 
-Explique como rodar o projeto, incluindo comandos e exemplos de uso.
+A página, a qual a aplicação irá fazer a coleta dos dos dados encontra-se no seguinte endereço:
+- https://www.fundamentus.com.br/fii_resultado.php
+
+Para executar, no diretório do projeto e com o ambiente virtual ativado, realize os seguintes passos:
 
 ```sh
-comando para iniciar o projeto
+python main.py
 ```
+Após a execução, um arquivo *.csv* será gerado e salvo no diretório `./dados`. Com os dados já carregado em sua máquina, no formato csv, diversas análises podem ser feitas. 
+
+Uma Análise Exploratória simples foi realizada no arquivo [exploratory_analysis.ipynb](https://github.com/MaercioMamedes/web_scraping_fundamentus_fii/blob/main/exploratory_analysis.ipynb)
 
 ## 🤝 Contribuição
 
@@ -80,9 +87,9 @@ Este projeto está sob a licença [Nome da Licença](LICENSE).
 
 ## 📬 Contato
 
-- Nome: Seu Nome
-- Email: seuemail@example.com
-- LinkedIn: [Seu Perfil](https://linkedin.com/in/seu-perfil)
+- Nome: Maercio Mamedes
+- Email: maerciomamedes@hotmail.com
+- LinkedIn: [Maercio Mamedes](https://www.linkedin.com/in/maerciomamedes/)
 
 ---
 
