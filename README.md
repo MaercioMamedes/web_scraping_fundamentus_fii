@@ -2,7 +2,7 @@
 ## Coletando dados de Fundos de Investimentos Imobiliários do Portal [Fundadamentus](https://www.fundamentus.com.br/)
 
 ![Badge de Status](https://img.shields.io/badge/status-em%20desenvolvimento-orange)
-![Licença](https://img.shields.io/github/license/usuario/repo)
+![Licença](https://img.shields.io/github/license/MaercioMamedes/web_scraping_fundamentus_fii)
 ![Contribuições](https://img.shields.io/badge/contribui%C3%A7%C3%B5es-bem%20vindas-brightgreen)
 
 Este projeto é uma aplicação escrita na linguagem Python, que realiza coleta de dados fundamentalista do portal [Fundadamentus](https://www.fundamentus.com.br/) de Fundos de Investimentos Imiboliário - FII, utilizando técnica de **[web scraping](https://pt.wikipedia.org/wiki/Web_scraping)**. Objetivo desse Projeto é automatizar a coleta de dados de FII's, para geraçao de relatórios para análise desse tipo de ativo. 
